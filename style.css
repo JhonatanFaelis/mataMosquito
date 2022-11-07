@@ -1,0 +1,70 @@
+html{
+    cursor: url(./imagens/mata_mosca.png) 30 30, auto;
+}
+
+body{
+    background-image: url(./imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3{
+    width: 90px;
+    height: 90px;
+}
+
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas{
+    float: left;
+    
+
+}
+
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background-image: url(./imagens/bg-mobile3.png);
+        background-size: cover;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        background-image: url(./imagens/bg-mobile3.png);
+        background-size: cover;
+}
+
+#imgvitoria{
+    max-width: 400px;
+}
+
+}
